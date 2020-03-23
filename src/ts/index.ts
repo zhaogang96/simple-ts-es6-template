@@ -3,6 +3,9 @@
 import "core-js/es/object/assign";
 import "core-js/es/array/includes";
 
+import { flat } from "./tools";
+
+flat();
 const c = [1, 2, 42];
 console.log(c.includes(1));
 console.log(...c);
